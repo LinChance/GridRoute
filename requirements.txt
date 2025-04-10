@@ -1,0 +1,14 @@
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.9.0
+openai>=1.54.0
+openpyxl>=3.1.0
+scipy>=1.15.0
+ast>=0.0.2
+re>=2.2.1
+os-sys>=2.1.4
+math>=0.0.1
+scipy>=1.15.0
+matplotlib>=3.9.0
+tqdm>=4.67.0
+scikit-learn>=1.6.0
