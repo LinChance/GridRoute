@@ -149,15 +149,7 @@ This will generate radar charts in `./results/radar_chart/`.
 ## Citation
 If you found this work helpful, please consider citing it using the following:
 ```
-@misc{li2025gridroutebenchmarkllmbasedroute,
-      title={GridRoute: A Benchmark for LLM-Based Route Planning with Cardinal Movement in Grid Environments}, 
-      author={Kechen Li and Yaotian Tao and Ximing Wen and Quanwei Sun and Zifei Gong and Chang Xu and Xizhe Zhang and Tianbo Ji},
-      year={2025},
-      eprint={2505.24306},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2505.24306}, 
-}
+
 ```
 
 
