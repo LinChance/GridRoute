@@ -1,16 +1,16 @@
 # Absract
-Recent advancements in Large Language Models (LLMs) have demonstrated their potential in planning and reasoning tasks, offering a flexible alternative to classical pathfinding algorithms. However, most existing studies focus on LLMs’ independent reasoning capabilities and overlook the potential synergy between LLMs and traditional algorithms.  Recent research has explored the potential of LLMs in route planning, while there is still no evaluation framework to assess how LLMs can take advantage of traditional algorithms. Therefore, we propose a novel hybrid prompting technique called Algorithm of Thought (AoT) prompt, and introduce the GridRoute Benchmark. Our benchmark evaluates six LLMs ranging from 7B to 72B parameters across various map sizes, assessing their performance in correctness, optimality, and efficiency in grid environments with varying sizes. Our results show that AoT significantly boosts performance across all model sizes, particularly in larger or more complex environments, suggesting a promising approach to addressing path planning challenges.
-
-## PPSLC Benchmark
-You can find the full paper in PDF format here: [Large Language Models as Path Planners: Exploring Obstacle-Aware Navigation Capabilities]
-![Project flow chart](./PPSLC.jpg)
+Recent advancements in Large Language Models (LLMs) have demonstrated their potential in planning and reasoning tasks, offering a flexible alternative to classical pathfinding algorithms. However, most existing studies focus on LLMs’ independent reasoning capabilities and overlook the potential synergy between LLMs and traditional algorithms. To fill this gap, we propose a comprehensive evaluation benchmark GridRoute to assess how LLMs can take advantage of traditional algorithms. We also propose a novel hybrid prompting technique called Algorithm of Thought (AoT), which introduces traditional algorithms' guidance into prompting. Our benchmark evaluates six LLMs ranging from 7B to 72B parameters across various map sizes, assessing their performance in correctness, optimality, and efficiency in grid environments with varying sizes. Our results show that AoT significantly boosts performance across all model sizes, particularly in larger or more complex environments, suggesting a promising approach to addressing path planning challenges.
+## GridRoute Benchmark
+You can find the full paper in PDF format here: [GridRoute: A Benchmark for LLM-Based Route Planning with Cardinal Movement in Grid Environments](https://arxiv.org/abs/2505.24306)
+![Project flow chart](./GridRoute.PNG)
 
 ## Getting started
 
 ```
-git clone https://gitlab.linchance.com:8888/linchance/drone_experiments.git
-cd .\drone_experiments
-pip install -r requirements.txt
+pip install openai
+pip install matplotlib
+pip install numpy
+pip install pandas
 ```
 
 ## Configuration
@@ -149,6 +149,15 @@ This will generate radar charts in `./results/radar_chart/`.
 ## Citation
 If you found this work helpful, please consider citing it using the following:
 ```
+@misc{li2025gridroutebenchmarkllmbasedroute,
+      title={GridRoute: A Benchmark for LLM-Based Route Planning with Cardinal Movement in Grid Environments}, 
+      author={Kechen Li and Yaotian Tao and Ximing Wen and Quanwei Sun and Zifei Gong and Chang Xu and Xizhe Zhang and Tianbo Ji},
+      year={2025},
+      eprint={2505.24306},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.24306}, 
+}
 ```
 
 

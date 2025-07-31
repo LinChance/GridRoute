@@ -9,7 +9,7 @@ api_paths_df = pd.read_csv(r'./results/output_dir/model_name_template.csv', engi
 
 
 # Ensure the directory exists for saving the plots
-output_dir = "./results/api_planned_paths_figure/modelname"
+output_dir = "./results/api_planned_paths_figure"
 os.makedirs(output_dir, exist_ok=True)
 
 # Process each map and associated path
